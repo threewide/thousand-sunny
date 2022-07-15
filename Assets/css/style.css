@@ -34,7 +34,48 @@ li {
     margin-left: 25px;
 }
 
+aside {
+    min-width: 20%;
+    max-width: 20%;
+    background-color: purple;
+    border-right: 4px solid black;
+}
+
+footer {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+}
+
 .name-portfolio {
     min-width: 50%;
     background-color: blue;
+}
+
+.sub-title {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.project-title-box {
+    background-color: orange;
+    width: fit-content;
+    height: 50px;
+    padding: 3px;
+    border: 2px solid yellowgreen;
+}
+
+.work-examples {
+    width: 75%;
+}
+
+.contact-list {
+    width: 80%;
+    background-color: brown;
+}
+
+.about-me {
+    display: flex;
 }
