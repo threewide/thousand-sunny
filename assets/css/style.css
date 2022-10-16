@@ -82,18 +82,27 @@ footer {
     border: 2px solid yellowgreen;
 }
 
-.work-examples {
-    width: 100%;
-}
-
 .work {
     display: flex;
 }
 
-.prime-work-example {
+.work-examples {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex: 1 0 0;
+    width: 50%;
+    height: 400px;
+}
+
+/* .prime-work-example {
     max-width: 800px;
     margin-bottom: 0px;
-}
+} */
 
 .prime-link {
     position: relative;
@@ -104,10 +113,10 @@ footer {
     display: inline;
 }
 
-.example {
+/* .example {
     max-width: 50%;
     min-width: 400px;
-}
+} */
 
 .contact-list {
     width: 80%;
@@ -116,4 +125,6 @@ footer {
 
 .about-me {
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
