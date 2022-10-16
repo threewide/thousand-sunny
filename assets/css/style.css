@@ -96,13 +96,9 @@ footer {
 .card {
     flex: 1 0 0;
     width: 50%;
+    min-width: 400px;
     height: 400px;
 }
-
-/* .prime-work-example {
-    max-width: 800px;
-    margin-bottom: 0px;
-} */
 
 .prime-link {
     position: relative;
@@ -112,11 +108,6 @@ footer {
     padding: 10px;
     display: inline;
 }
-
-/* .example {
-    max-width: 50%;
-    min-width: 400px;
-} */
 
 .contact-list {
     width: 80%;
